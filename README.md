@@ -22,9 +22,9 @@ With an UNIX environment:
     make
     sudo make install
 
-## Licence
+## License
 
-FFT Decrypt is available under the terms of the MIT licence.
+FFT Decrypt is available under the terms of the MIT license.
 
 ## Credits
 
