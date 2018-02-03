@@ -9,7 +9,7 @@
 # define FFT_DECRYPT_API
 #endif
 
-#define FFT_DECRYPT_VERSION "1.0.0"
+#define FFT_DECRYPT_VERSION "1.1.0"
 
 struct FFTD_Decryptor_
 {
