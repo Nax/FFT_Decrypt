@@ -1,8 +1,10 @@
 # FFT Decrypt
 
+![Mac Screenshot](/data/misc/mac_screenshot.png?raw=true)
+
 Decrypt FFT WotL's EBOOT.BIN in-place within the ISO.
 
-FFT Decrypt is compatible with theu E and U versions of the game.
+FFT Decrypt is compatible with the E and U versions of the game.
 
 ## Usage
 
