@@ -11,9 +11,11 @@ if (APPLE)
     set(MACOSX_BUNDLE_ICON_FILE icon.icns)
     set_source_files_properties(${ICON} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
     list(APPEND SOURCES ${ICON})
+elseif(WIN32)
+	list(APPEND SOURCES "${CMAKE_SOURCE_DIR}/data/fftdecrypt-gui/fftdecrypt.rc")
 endif()
 
-add_executable(fftdecrypt-gui MACOSX_BUNDLE ${SOURCES})
+add_executable(fftdecrypt-gui WIN32 MACOSX_BUNDLE ${SOURCES})
 target_include_directories(fftdecrypt-gui PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(fftdecrypt-gui Qt5::Core Qt5::Widgets libfftdecrypt)
 
